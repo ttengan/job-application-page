@@ -1,0 +1,84 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(17, 54, 129);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    width: 60%;
+    max-width:600px;
+    box-shadow: 0 5px 15px black;
+}
+
+h1,p{
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+fieldset{
+    margin: 20px;
+    padding: 20px 10px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+fieldset legend{
+    font-size: 1.5rem;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+   
+}
+
+input{
+    width: 95%;
+    font-size: 1.1rem;
+}
+
+textarea{
+    width: 95%;
+}
+
+button{
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: green;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select,select option{
+    font-size:1.2rem;
+    background-color:gray ;
+    color: whitesmoke;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+button:hover{
+    background-color: rgb(24, 165, 40);
+    transition: background-color 0.3  s ease;
+}
+

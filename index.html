@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="container">
+    <h1>Job application form</h1>
+    <p>Please fill in the form below with your details and desired job position
+
+    </p>
+   
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="name">Full name</label>
+        <input id="name" name="full-name" type="text" required>
+
+        <label for="date-of-birth">Date of birth</label>
+        <input id="date-of-birth" name="date-of-birth" type="date" required>
+
+        <label for="location">Address</label>
+        <input type="text" id="location" name="Address" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact details</legend>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" required>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Job application details</legend>
+
+        <label for="position">Position</label>
+        <select id="position" class="position">
+            <option name="position" value="principal" >Principal</option>
+             <option name="position" value="vice-principal" >Vice Principal</option>
+              <option name="position" value="librarian" >Librarian</option>
+               <option name="position" value="it technician" >IT Technician</option>
+                <option name="position" value="coach" >Coach</option>
+                 <option name="position" value="facilities manager" >Facilities Manager</option>
+                  <option name="position" value="accountant" >Accountant</option>
+        </select>
+
+
+
+          <label for="employment-type">Employment type</label>
+          <select id="employment-type">
+            <option name="employment-type" value="full-time" >Full time</option>
+             <option name="employment-type" value="part-time">Part time</option>
+          </select>
+            
+         </fieldset>
+
+
+    <fieldset>
+        <legend>Additional information</legend>
+
+        <label for="additional-info">Anything else you would like us to
+            know?</label>
+        <textarea name="additional-info" cols="50" rows="4" id="additional-info"></textarea> 
+    </fieldset>
+
+    <button type="submit">Submit Form</button>
+    </div>
+    
+    
+</body>
+</html>
